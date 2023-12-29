@@ -6,7 +6,7 @@ A Laravel application designed to maintain a database of movies.
 - Copy `.env.example` into `.env`
 - Edit the superadmin name, email and password in `.env`.
 - Run `composer install`.
-- Run `db artisan key:generate`.
+- Run `php artisan key:generate`.
 - Create a file named `database.sqlite` in the database directory or define a connection to your database.
 - Run `php artisan migrate`.
 - Run `php artisan db:seed`.
